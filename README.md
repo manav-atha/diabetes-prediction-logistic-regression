@@ -41,7 +41,9 @@ Test set: 154 patients (99 not diabetic, 55 diabetic).
   - BloodPressure −0.15, Insulin −0.14 and SkinThickness 0.07 have little effect.
 - **Glucose had the strongest correlation with the outcome** in the heatmap.
 
-![ROC curve](images/roc-curve.png)
+![Correlation heatmap](images/correlation-heatmap.png)
+
+![ROC curve (AUC 0.823 from predicted probabilities)](images/roc-curve.png)
 
 ## Business takeaway
 
