@@ -62,6 +62,12 @@ Test set: 154 patients (99 not diabetic, 55 diabetic).
   - Fill missing values after the train-test split, using training-set medians.
   - Use cross-validation and tune the decision threshold for higher recall.
 
+## Streamlit app
+
+The app takes the 8 health measurements and returns "High chance" or "Low chance" of diabetes. Example: patient 1 in the dataset (diabetic) is flagged as high chance.
+
+![Streamlit app](images/app-screenshot.png)
+
 ## Tools
 
 Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn, Streamlit, Jupyter Notebook
@@ -92,6 +98,7 @@ diabetes-prediction-logistic-regression/
 ├── data/
 │   └── diabetes.csv
 ├── images/
+│   ├── app-screenshot.png
 │   ├── correlation-heatmap.png
 │   └── roc-curve.png
 ├── notebooks/
